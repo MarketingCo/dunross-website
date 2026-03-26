@@ -211,7 +211,7 @@ footer {
     width: 100%;
     height: 50vh;
     min-height: 400px;
-    background-image: url('mist-landscaping.jpg'); 
+    background-image: url('hero.jpg'); 
     background-size: cover;
     background-position: center;
     position: relative;
@@ -235,4 +235,34 @@ footer {
 
 @media (max-width: 768px) {
     .hero-image-container { height: 40vh; margin-bottom: -5vh; }
+}
+
+/* --- Content Page Image Styles --- */
+.content-image-wrapper {
+    float: right;
+    width: 40%;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    /* Moody overlay for content images */
+    box-shadow: inset 0 0 100px rgba(0,0,0,0.5); 
+}
+
+.content-image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+    /* This makes the image darker to blend with theme */
+    filter: brightness(0.6) contrast(1.1) grayscale(0.1); 
+}
+
+@media (max-width: 768px) {
+    .content-image-wrapper {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
 }
