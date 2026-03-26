@@ -10,22 +10,52 @@
     <header class="site-header">
         <a href="index.html" class="logo">DUNROSS</a>
         <nav class="main-nav">
-            <a href="purpose.html">Our Purpose</a>
-            <a href="heritage.html">Our Heritage</a>
-            <a href="leadership.html">Our Leadership</a>
-            <a href="operations.html" class="active">Our Operations</a>
-            <a href="contact.html">Contact</a>
+            <a href="purpose.html" class="nav-link">Our Purpose</a>
+            <a href="heritage.html" class="nav-link">Our Heritage</a>
+            <a href="leadership.html" class="nav-link">Our Leadership</a>
+            <a href="operations.html" class="nav-link">Our Operations</a>
+            <a href="contact.html" class="nav-link">Contact</a>
         </nav>
+        <button class="burger-btn" onclick="document.body.classList.add('menu-open')" aria-label="Open menu">
+            <svg width="30" height="20" viewBox="0 0 30 20" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M0 2h30M0 10h30M0 18h30"/></svg>
+        </button>
     </header>
+
+    <div class="mobile-overlay" onclick="document.body.classList.remove('menu-open')"></div>
+    <div class="mobile-sidebar">
+        <button class="close-btn" onclick="document.body.classList.remove('menu-open')" aria-label="Close menu">✕</button>
+        <nav class="mobile-nav">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="purpose.html" class="nav-link">Our Purpose</a>
+            <a href="heritage.html" class="nav-link">Our Heritage</a>
+            <a href="leadership.html" class="nav-link">Our Leadership</a>
+            <a href="operations.html" class="nav-link">Our Operations</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+    </div>
+
+    <script>
+        const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+        document.querySelectorAll('.nav-link').forEach(link => {
+            if (link.getAttribute('href') === currentPath) {
+                link.classList.add('active');
+            }
+        });
+    </script>
+
     <main>
         <h2>Our Operations</h2>
         <p>As responsible corporate citizens, we strive to make a positive, tangible contribution to the Scottish economy through our disciplined investments.</p>
         <p>We pride ourselves on supporting a robust cluster of enterprises. We are responsible custodians of a diversified portfolio spanning high-quality residential and commercial property, alongside strategic, long-term investments in the services and manufacturing sectors.</p>
         <p>By focusing on building deep partnerships and taking a patient, responsible view of capital deployment, we continuously deliver resilient, enduring results.</p>
     </main>
+
     <footer>
         <div>&copy; 2026 Dunross Investments Limited</div>
-        <div class="footer-links"><a href="#">Privacy Policy</a><a href="#">Terms & Conditions</a></div>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
     </footer>
 </body>
 </html>
