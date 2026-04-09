@@ -373,3 +373,18 @@ body.menu-open .mobile-sidebar { right: 0; }
 @media (max-width: 768px) {
     .burger-btn { display: flex; }
 }
+
+/* --- Scroll Reveal Animations --- */
+.reveal, .sector-grid, .content-image-wrapper, main > p, h2 {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 1.5s var(--ease), transform 1.5s var(--ease);
+    will-change: opacity, transform;
+}
+
+.reveal.is-visible, .sector-grid.is-visible, .content-image-wrapper.is-visible, main > p.is-visible, h2.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.hero-text-content p { opacity: 1; transform: none; transition: none; }
