@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
 :root {
-    --bg-color: #080808;
-    --bg-alt: #101010;
+    --bg-color: #0a0c0b; /* Deep Obsidian with a hint of green */
+    --bg-alt: #141a17;
     --text-primary: #ffffff;
-    --text-secondary: #999999;
-    --accent-color: #d4af37; /* Metallic Gold */
-    --accent-dark: #a6892c;
+    --text-secondary: #a0a8a4;
+    --accent-color: #7db894; /* Your original Mint Green, now as a refined accent */
+    --accent-dark: #2d5a4c;  /* Deep Forest/Racing Green */
+    --silver: #d1d1d1;       /* Sophisticated Silver instead of Gold */
     --font-heading: 'Playfair Display', serif;
     --font-body: 'Inter', sans-serif;
-    --content-width: 1000px; /* Narrower for more focus */
+    --content-width: 1000px;
     --ease: cubic-bezier(0.16, 1, 0.3, 1);
     --transition: all 0.8s var(--ease);
 }
@@ -44,7 +45,7 @@ body {
     max-width: var(--content-width);
     margin: 0 auto;
     width: 100%;
-    padding: 6rem 2rem; /* Significantly more whitespace */
+    padding: 6rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,7 +57,7 @@ body {
     font-family: var(--font-heading);
     font-size: 1.25rem;
     font-weight: 700;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.25em;
     text-decoration: none;
     color: var(--text-primary);
     transition: var(--transition);
@@ -143,7 +144,7 @@ h2::after {
     height: 1px;
     width: 80px;
     background-color: var(--accent-color);
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 p {
@@ -174,8 +175,8 @@ footer {
     max-width: var(--content-width);
     margin: 0 auto;
     width: 100%;
-    padding: 10rem 2rem 6rem; /* Vastly more whitespace */
-    border-top: 1px solid rgba(212, 175, 55, 0.1);
+    padding: 10rem 2rem 6rem;
+    border-top: 1px solid rgba(125, 184, 148, 0.1);
     color: var(--text-secondary);
     font-size: 0.65rem;
     display: flex;
@@ -222,7 +223,7 @@ footer {
 /* --- Hero Section --- */
 .hero-image-container {
     width: 100%;
-    height: 80vh; /* Taller hero */
+    height: 80vh;
     min-height: 700px;
     background-image: url('hero.jpg'); 
     background-size: cover;
@@ -230,7 +231,7 @@ footer {
     background-attachment: fixed;
     position: relative;
     margin-bottom: 8rem;
-    filter: grayscale(1) contrast(1.1); /* Editorial Noir Look */
+    filter: grayscale(1) brightness(0.7) contrast(1.1); /* Editorial Noir Look */
     box-shadow: 0 50px 100px -20px rgba(0,0,0,0.8);
     animation: fadeIn 3s ease forwards;
 }
@@ -238,7 +239,7 @@ footer {
 .hero-overlay {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: linear-gradient(180deg, rgba(8,8,8,0.3) 0%, rgba(8,8,8,1) 100%);
+    background: linear-gradient(180deg, rgba(10,12,11,0.2) 0%, rgba(10,12,11,1) 100%);
 }
 
 /* --- Portfolio/Card Grid --- */
@@ -246,9 +247,9 @@ footer {
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 1px;
-    background-color: rgba(212, 175, 55, 0.05);
+    background-color: rgba(125, 184, 148, 0.05);
     margin-top: 10rem;
-    border: 1px solid rgba(212, 175, 55, 0.05);
+    border: 1px solid rgba(125, 184, 148, 0.05);
 }
 
 .sector-card {
@@ -286,9 +287,9 @@ footer {
     margin-bottom: 6rem;
     position: relative;
     overflow: hidden;
-    filter: grayscale(1) brightness(0.7); /* Editorial Noir Look */
+    filter: grayscale(1) brightness(0.65); /* Editorial Noir Look */
     box-shadow: 0 40px 80px rgba(0,0,0,0.6);
-    border: 1px solid rgba(212, 175, 55, 0.05);
+    border: 1px solid rgba(125, 184, 148, 0.05);
 }
 
 .content-image-wrapper img {
@@ -326,7 +327,7 @@ footer {
     display: block;
     position: fixed;
     top: 0; left: 0; width: 100vw; height: 100vh;
-    background: rgba(8,8,8,0.98);
+    background: rgba(10,12,11,0.98);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     opacity: 0;
