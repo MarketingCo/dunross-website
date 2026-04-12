@@ -4,7 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Purpose | Dunross Investments</title>
-    <meta name="description" content="At Dunross, we believe people and principles make the difference. We seek out partners and leaders driven by passion and authenticity.">
+    <meta name="description" content="At Dunross Investments, we are driven by the principle of enduring value and disciplined stewardship.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dunross.co/purpose.html">
+    <meta property="og:title" content="Our Purpose | Dunross Investments">
+    <meta property="og:description" content="At Dunross Investments, we are driven by the principle of enduring value and disciplined stewardship.">
+    <meta property="og:image" content="https://dunross.co/hero.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://dunross.co/purpose.html">
+    <meta property="twitter:title" content="Our Purpose | Dunross Investments">
+    <meta property="twitter:description" content="At Dunross Investments, we are driven by the principle of enduring value and disciplined stewardship.">
+    <meta property="twitter:image" content="https://dunross.co/hero.jpg">
+
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="stylesheet" href="styles.css">
 
@@ -16,9 +31,9 @@
                         entry.target.classList.add('is-visible');
                     }
                 });
-            }, { threshold: 0.15 });
+            }, { threshold: 0.1 });
             
-            document.querySelectorAll('.reveal, h2, p, .sector-grid, .content-image-wrapper').forEach(el => observer.observe(el));
+            document.querySelectorAll('.reveal, h2, p, .sector-grid, .sector-card').forEach(el => observer.observe(el));
         });
     </script>
 </head>
@@ -33,7 +48,7 @@
             <a href="contact.html" class="nav-link">Contact</a>
         </nav>
         <button class="burger-btn" onclick="document.body.classList.add('menu-open')" aria-label="Open menu">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 8h16M4 16h16"/></svg>
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 8h16M4 16h16"/></svg>
         </button>
     </header>
 
@@ -60,49 +75,53 @@
     </script>
 
     <main>
-        <h2>Our Purpose</h2>
-        <p>At Dunross, we have a profound belief that people and principles make the difference. We seek out partners and leaders driven by passion, commitment, and absolute authenticity.</p>
-        
-        <div class="sector-grid">
-            <div class="sector-card">
-                <h3>Partnership</h3>
-                <p>We commit to the long term, building lasting value through shared respect and mutual diligence.</p>
+        <div class="reveal">
+            <h2>Our Purpose</h2>
+            <p style="font-size: 1.5rem; color: var(--navy-primary); line-height: 1.4; margin-bottom: 3rem;">We are a family-led investment firm dedicated to the principle of enduring value. Our purpose is to serve as a disciplined custodian of capital, ensuring the long-term health and growth of our portfolio.</p>
+            
+            <div class="sector-grid">
+                <div class="sector-card">
+                    <h3>Discipline</h3>
+                    <p>We maintain a rigorous focus on quality and long-term stability in all our investment decisions.</p>
+                </div>
+                <div class="sector-card">
+                    <h3>Stewardship</h3>
+                    <p>We take our responsibility to our partners, employees, and communities seriously, leading with integrity and respect.</p>
+                </div>
+                <div class="sector-card">
+                    <h3>Legacy</h3>
+                    <p>We are building a legacy of value that will last for generations, rooted in our Scottish heritage and family values.</p>
+                </div>
             </div>
-            <div class="sector-card">
-                <h3>People</h3>
-                <p>We believe that while a robust business plan is critical, the right mindset is always paramount.</p>
-            </div>
-            <div class="sector-card">
-                <h3>Principles</h3>
-                <p>An unwavering moral compass and a humble mentality guide every investment decision we make.</p>
-            </div>
+            
+            <p style="margin-top: 6rem;">Our approach is defined by patience, diligence, and an unwavering commitment to the principles that have guided us from the beginning.</p>
         </div>
-        
-        <p style="margin-top: 6rem;">We work to establish a winning, yet humble, mentality among our teams and partners to create enduring commercial value.</p>
     </main>
 
-        <footer class="reveal">
-        <div style="display: flex; flex-direction: column; gap: 2rem; flex: 1;">
-            <div class="logo" style="font-size: 1.5rem;">DUNROSS</div>
-            <p style="font-size: 0.8rem; max-width: 300px; color: var(--text-secondary);">Disciplined custodians of capital, building enduring value across Scotland.</p>
-        </div>
-        <div style="display: flex; gap: 4rem; flex-wrap: wrap;">
-            <div>
-                <div style="font-family: var(--font-heading); color: var(--accent-color); margin-bottom: 1.5rem; font-weight: 400; font-style: italic; font-size: 1.2rem;">Registered Office</div>
-                <p style="font-size: 0.75rem; color: var(--text-secondary); line-height: 2;">Titanium 1, King's Inch Place<br>Renfrew, PA4 8WF<br>Scotland</p>
+    <footer class="reveal">
+        <div class="footer-content">
+            <div style="flex: 1; min-width: 250px;">
+                <div class="logo" style="color: white; margin-bottom: 2rem; display: block;">DUNROSS</div>
+                <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem;">Disciplined custodians of capital, building enduring value across Scotland.</p>
             </div>
-            <div>
-                <div style="font-family: var(--font-heading); color: var(--accent-color); margin-bottom: 1.5rem; font-weight: 400; font-style: italic; font-size: 1.2rem;">Contact</div>
-                <p style="font-size: 0.75rem; color: var(--text-secondary); line-height: 2;"><a href="mailto:info@dunross.co" style="color: inherit; text-decoration: none;">info@dunross.co</a></p>
+            <div style="display: flex; gap: 4rem; flex-wrap: wrap;">
+                <div>
+                    <div style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 1.5rem; font-weight: 700;">Office</div>
+                    <p style="font-size: 0.85rem; color: rgba(255,255,255,0.7); line-height: 2;">Titanium 1, King's Inch Place<br>Renfrew, PA4 8WF<br>Scotland</p>
+                </div>
+                <div>
+                    <div style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 1.5rem; font-weight: 700;">Contact</div>
+                    <p style="font-size: 0.85rem; color: rgba(255,255,255,0.7); line-height: 2;"><a href="mailto:info@dunross.co" style="color: inherit; text-decoration: none;">info@dunross.co</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>&copy; 2026 Dunross Investments Limited</div>
+            <div style="display: flex; gap: 2rem;">
+                <a href="#" style="color: inherit; text-decoration: none;">Privacy Policy</a>
+                <a href="#" style="color: inherit; text-decoration: none;">Terms</a>
             </div>
         </div>
     </footer>
-    <div style="max-width: var(--content-width); margin: 0 auto; padding: 2rem; padding-bottom: 4rem; display: flex; justify-content: space-between; border-top: 1px solid rgba(212, 175, 55, 0.05); font-size: 0.65rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.1em; flex-wrap: wrap; gap: 2rem;">
-        <div>&copy; 2026 Dunross Investments Limited</div>
-        <div style="display: flex; gap: 2rem;">
-            <a href="#" style="color: var(--text-secondary); text-decoration: none; transition: var(--transition);" onmouseover="this.style.color='var(--accent-color)'" onmouseout="this.style.color='var(--text-secondary)'">Privacy Policy</a>
-            <a href="#" style="color: var(--text-secondary); text-decoration: none; transition: var(--transition);" onmouseover="this.style.color='var(--accent-color)'" onmouseout="this.style.color='var(--text-secondary)'">Terms & Conditions</a>
-        </div>
-    </div>
 </body>
 </html>

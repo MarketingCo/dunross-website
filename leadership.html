@@ -4,7 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Leadership | Dunross Investments</title>
-    <meta name="description" content="Led by John Dunn, a chartered surveyor with over three decades of experience in the Scottish property and investment sectors.">
+    <meta name="description" content="Meet the leadership team at Dunross Investments, dedicated to disciplined stewardship and long-term value creation.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dunross.co/leadership.html">
+    <meta property="og:title" content="Our Leadership | Dunross Investments">
+    <meta property="og:description" content="Meet the leadership team at Dunross Investments, dedicated to disciplined stewardship and long-term value creation.">
+    <meta property="og:image" content="https://dunross.co/hero.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://dunross.co/leadership.html">
+    <meta property="twitter:title" content="Our Leadership | Dunross Investments">
+    <meta property="twitter:description" content="Meet the leadership team at Dunross Investments, dedicated to disciplined stewardship and long-term value creation.">
+    <meta property="twitter:image" content="https://dunross.co/hero.jpg">
+
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="stylesheet" href="styles.css">
 
@@ -16,9 +31,9 @@
                         entry.target.classList.add('is-visible');
                     }
                 });
-            }, { threshold: 0.15 });
+            }, { threshold: 0.1 });
             
-            document.querySelectorAll('.reveal, h2, p, .sector-grid, .content-image-wrapper').forEach(el => observer.observe(el));
+            document.querySelectorAll('.reveal, h2, p, .sector-grid, .sector-card').forEach(el => observer.observe(el));
         });
     </script>
 </head>
@@ -33,7 +48,7 @@
             <a href="contact.html" class="nav-link">Contact</a>
         </nav>
         <button class="burger-btn" onclick="document.body.classList.add('menu-open')" aria-label="Open menu">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 8h16M4 16h16"/></svg>
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 8h16M4 16h16"/></svg>
         </button>
     </header>
 
@@ -60,48 +75,53 @@
     </script>
 
     <main>
-        <h2>Our Leadership</h2>
-        <div class="content-image-wrapper">
-            <img src="leadership-img.jpg" alt="Historic Edinburgh architecture detail">
-        </div>
-        <p>The firm is led by John Dunn, a chartered surveyor whose career in Scotland spans more than three decades.</p>
-        
-        <div style="margin-top: 5rem; max-width: 600px;">
-            <div style="margin-bottom: 4rem;">
-                <h3 style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-color); margin-bottom: 1.5rem;">Professional Experience</h3>
-                <p style="font-size: 1.15rem; color: var(--text-secondary);">With over 30 years of experience in the Scottish property market, John brings a wealth of knowledge in asset management and strategic investment.</p>
+        <div class="reveal">
+            <h2>Our Leadership</h2>
+            <div class="hero-image-container" style="height: 40vh; margin-bottom: 4rem; background-image: url('leadership-img.jpg');">
+                <div class="hero-overlay"></div>
             </div>
-            <div>
-                <h3 style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-color); margin-bottom: 1.5rem;">Investment Philosophy</h3>
-                <p style="font-size: 1.15rem; color: var(--text-secondary);">Guided by principles of diligence and long-term stewardship, placing enduring value and community respect above short-term gains.</p>
+            <p style="font-size: 1.5rem; color: var(--navy-primary); line-height: 1.4; margin-bottom: 3rem;">Guided by experience and a steadfast commitment to our core values, the Dunross leadership team ensures the enduring success of our portfolio.</p>
+            
+            <div class="sector-grid">
+                <div class="sector-card">
+                    <h3>John Dunn</h3>
+                    <p style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1.5rem; font-weight: 700;">Chairman & Founder</p>
+                    <p>John provides the strategic vision for the firm, drawing on decades of experience in disciplined capital management and business development.</p>
+                </div>
+                <div class="sector-card">
+                    <h3>Executive Team</h3>
+                    <p>Our broader leadership team brings together expertise in property management, industrial services, and financial stewardship to drive consistent results.</p>
+                </div>
             </div>
+            
+            <p style="margin-top: 6rem;">We believe that leadership is a responsibility—a commitment to lead with integrity, respect, and a focus on the long-term health of our investments and our people.</p>
         </div>
-        
-        <p style="margin-top: 5rem;">Rooted in Edinburgh, his leadership defines the disciplined approach that is the hallmark of Dunross.</p>
     </main>
 
-        <footer class="reveal">
-        <div style="display: flex; flex-direction: column; gap: 2rem; flex: 1;">
-            <div class="logo" style="font-size: 1.5rem;">DUNROSS</div>
-            <p style="font-size: 0.8rem; max-width: 300px; color: var(--text-secondary);">Disciplined custodians of capital, building enduring value across Scotland.</p>
-        </div>
-        <div style="display: flex; gap: 4rem; flex-wrap: wrap;">
-            <div>
-                <div style="font-family: var(--font-heading); color: var(--accent-color); margin-bottom: 1.5rem; font-weight: 400; font-style: italic; font-size: 1.2rem;">Registered Office</div>
-                <p style="font-size: 0.75rem; color: var(--text-secondary); line-height: 2;">Titanium 1, King's Inch Place<br>Renfrew, PA4 8WF<br>Scotland</p>
+    <footer class="reveal">
+        <div class="footer-content">
+            <div style="flex: 1; min-width: 250px;">
+                <div class="logo" style="color: white; margin-bottom: 2rem; display: block;">DUNROSS</div>
+                <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem;">Disciplined custodians of capital, building enduring value across Scotland.</p>
             </div>
-            <div>
-                <div style="font-family: var(--font-heading); color: var(--accent-color); margin-bottom: 1.5rem; font-weight: 400; font-style: italic; font-size: 1.2rem;">Contact</div>
-                <p style="font-size: 0.75rem; color: var(--text-secondary); line-height: 2;"><a href="mailto:info@dunross.co" style="color: inherit; text-decoration: none;">info@dunross.co</a></p>
+            <div style="display: flex; gap: 4rem; flex-wrap: wrap;">
+                <div>
+                    <div style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 1.5rem; font-weight: 700;">Office</div>
+                    <p style="font-size: 0.85rem; color: rgba(255,255,255,0.7); line-height: 2;">Titanium 1, King's Inch Place<br>Renfrew, PA4 8WF<br>Scotland</p>
+                </div>
+                <div>
+                    <div style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 1.5rem; font-weight: 700;">Contact</div>
+                    <p style="font-size: 0.85rem; color: rgba(255,255,255,0.7); line-height: 2;"><a href="mailto:info@dunross.co" style="color: inherit; text-decoration: none;">info@dunross.co</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>&copy; 2026 Dunross Investments Limited</div>
+            <div style="display: flex; gap: 2rem;">
+                <a href="#" style="color: inherit; text-decoration: none;">Privacy Policy</a>
+                <a href="#" style="color: inherit; text-decoration: none;">Terms</a>
             </div>
         </div>
     </footer>
-    <div style="max-width: var(--content-width); margin: 0 auto; padding: 2rem; padding-bottom: 4rem; display: flex; justify-content: space-between; border-top: 1px solid rgba(212, 175, 55, 0.05); font-size: 0.65rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.1em; flex-wrap: wrap; gap: 2rem;">
-        <div>&copy; 2026 Dunross Investments Limited</div>
-        <div style="display: flex; gap: 2rem;">
-            <a href="#" style="color: var(--text-secondary); text-decoration: none; transition: var(--transition);" onmouseover="this.style.color='var(--accent-color)'" onmouseout="this.style.color='var(--text-secondary)'">Privacy Policy</a>
-            <a href="#" style="color: var(--text-secondary); text-decoration: none; transition: var(--transition);" onmouseover="this.style.color='var(--accent-color)'" onmouseout="this.style.color='var(--text-secondary)'">Terms & Conditions</a>
-        </div>
-    </div>
 </body>
 </html>
