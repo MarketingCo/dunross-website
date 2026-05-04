@@ -19,6 +19,7 @@ const inter = Inter({
 const siteUrl = "https://dunross.co";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
     default: "Dunross Investments Limited | Commercial Project Management & Surveying",
     template: "%s | Dunross Investments Limited",

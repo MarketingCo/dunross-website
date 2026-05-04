@@ -23,7 +23,7 @@ export default function Home() {
               Dunross Investments Limited
             </p>
             <h1 className="reveal-d1 font-heading text-3xl md:text-5xl lg:text-6xl font-light italic leading-[1.2] text-[#f0f4f1] max-w-3xl mb-10">
-              "We commit to the long term, building lasting value through trust, diligence, and shared respect."
+              Commercial Project Management &amp; Quantity Surveying | Scotland
             </h1>
             <p className="reveal-d2 text-[#8a9691] font-heading italic text-base md:text-lg">
               — John Dunn, Chairman &amp; Founder
@@ -60,6 +60,14 @@ export default function Home() {
                 <p className="text-[#8a9691] text-base leading-loose font-light">
                   From the Georgian terraces of Edinburgh's New Town to the regenerated waterfront at
                   Leith, we bring precision, accountability, and deep local knowledge to every engagement.
+                  Our quantity surveying and building surveying services deliver accurate cost management,
+                  risk mitigation, and contract administration for commercial developments, heritage
+                  restorations, and industrial projects throughout Scotland.
+                </p>
+                <p className="text-[#8a9691] text-base leading-loose font-light">
+                  Whether you require commercial project management in Edinburgh, quantity surveying for
+                  a new development in Glasgow, or building surveying expertise across Scotland, Dunross
+                  provides the disciplined oversight and technical precision that enduring properties demand.
                 </p>
               </div>
 
