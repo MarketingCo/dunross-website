@@ -94,6 +94,7 @@ const jsonLd = {
     name: "John Dunn",
     jobTitle: "Chairman & Founder",
   },
+  sameAs: [],
 };
 
 export default function RootLayout({
