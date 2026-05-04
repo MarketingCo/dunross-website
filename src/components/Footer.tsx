@@ -96,13 +96,11 @@ export default function Footer() {
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-3 text-[9px] uppercase tracking-[0.25em] font-medium text-[#5a6460]">
             <span>© 2026 Dunross Investments Limited. All rights reserved.</span>
             <span className="hidden sm:inline text-white/10">·</span>
-            <span>
-              Website by{' '}
+            <span>{' '}
               <a
                 href="https://marketingcompany.co.uk"
                 className="text-[#5a9e7e] hover:text-[#f0f4f1] transition-colors duration-300"
               >
-                Marketing Company
               </a>
             </span>
           </div>
