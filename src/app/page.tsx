@@ -26,7 +26,7 @@ export default function Home() {
               Family Investment Office | Scotland
             </h1>
             <p className="reveal-d2 text-[#8a9691] font-heading italic text-base md:text-lg">
-              — John Dunn, Chairman &amp; Founder
+              — Dunross Investments Limited
             </p>
           </div>
         </section>
