@@ -23,7 +23,7 @@ export default function Home() {
               Dunross Investments Limited
             </p>
             <h1 className="reveal-d1 font-heading text-3xl md:text-5xl lg:text-6xl font-light italic leading-[1.2] text-[#f0f4f1] max-w-3xl mb-10">
-              Commercial Project Management &amp; Quantity Surveying | Scotland
+              Family Investment Office | Scotland
             </h1>
             <p className="reveal-d2 text-[#8a9691] font-heading italic text-base md:text-lg">
               — John Dunn, Chairman &amp; Founder
@@ -45,9 +45,9 @@ export default function Home() {
 
               <div className="space-y-7">
                 <p className="font-heading text-2xl md:text-3xl font-light leading-relaxed text-[#f0f4f1]">
-                  Dunross Investments Limited is a disciplined custodian of capital, specialising in{' '}
+                  Dunross Investments Limited is a family investment office, providing{' '}
                   <em className="text-[#5a9e7e] not-italic font-medium">
-                    Commercial Project Management &amp; Surveying
+                    disciplined capital stewardship and investment oversight
                   </em>{' '}
                   across Scotland.
                 </p>
@@ -60,14 +60,14 @@ export default function Home() {
                 <p className="text-[#8a9691] text-base leading-loose font-light">
                   From the Georgian terraces of Edinburgh's New Town to the regenerated waterfront at
                   Leith, we bring precision, accountability, and deep local knowledge to every engagement.
-                  Our quantity surveying and building surveying services deliver accurate cost management,
-                  risk mitigation, and contract administration for commercial developments, heritage
-                  restorations, and industrial projects throughout Scotland.
+                  We deploy capital with precision and patience — supporting commercial developments,
+                  heritage restorations, and industrial ventures throughout Scotland through
+                  strategic investment, joint partnerships, and disciplined asset management.
                 </p>
                 <p className="text-[#8a9691] text-base leading-loose font-light">
-                  Whether you require commercial project management in Edinburgh, quantity surveying for
-                  a new development in Glasgow, or building surveying expertise across Scotland, Dunross
-                  provides the disciplined oversight and technical precision that enduring properties demand.
+                  Whether you are seeking investment partnership for a commercial development in Edinburgh,
+                  capital for a new venture in Glasgow, or disciplined asset oversight across Scotland,
+                  Dunross provides the principled stewardship that enduring value demands.
                 </p>
               </div>
 
@@ -181,7 +181,7 @@ export default function Home() {
               </h2>
               <p className="text-[#8a9691] text-sm leading-relaxed">
                 We welcome enquiries from property owners, developers, and institutional partners
-                seeking specialist commercial project management and surveying expertise across Scotland.
+                seeking disciplined capital partnership and investment oversight across Scotland.
               </p>
             </div>
             <a

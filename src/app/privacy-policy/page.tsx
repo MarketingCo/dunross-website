@@ -18,7 +18,7 @@ export default function PrivacyPolicyPage() {
               1. Who We Are
             </h2>
             <p>
-              Dunross Investments Limited (“we”, “us”, or “our”) is a company registered in Scotland, providing specialist commercial project management and quantity surveying services. Our registered office is at Titanium 1, King&apos;s Inch Place, Renfrew, PA4 8WF, Scotland. We are the data controller responsible for the personal information we collect.
+              Dunross Investments Limited (“we”, “us”, or “our”) is a company registered in Scotland, operating as a family investment office providing capital stewardship and strategic investment services. Our registered office is at Titanium 1, King&apos;s Inch Place, Renfrew, PA4 8WF, Scotland. We are the data controller responsible for the personal information we collect.
             </p>
           </section>
 
@@ -62,7 +62,7 @@ export default function PrivacyPolicyPage() {
               We will only use your personal data when the law allows us to. Common purposes include:
             </p>
             <ul className="list-disc pl-6 space-y-2 mt-2">
-              <li>To respond to enquiries and provide project management or surveying services.</li>
+              <li>To respond to enquiries and provide investment and asset management services.</li>
               <li>To fulfil our contractual obligations to you.</li>
               <li>To send you relevant updates, newsletters, or invitations (where you have consented).</li>
               <li>To improve our website, services, and client experience.</li>

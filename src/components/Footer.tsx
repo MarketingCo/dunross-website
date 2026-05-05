@@ -22,8 +22,8 @@ export default function Footer() {
               DUNROSS
             </div>
             <p className="text-xs text-[#8a9691] leading-loose max-w-xs">
-              Disciplined custodians of capital, providing specialist commercial project management
-              and surveying across Scotland's architectural landscape.
+              A family investment office providing disciplined capital stewardship and strategic
+              investment oversight across Scotland.
             </p>
             <div className="pt-2 space-y-1">
               <p className="text-[10px] text-[#5a6460] leading-loose">

@@ -22,15 +22,15 @@ const siteUrl = "https://dunross.co";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Dunross Investments Limited | Commercial Project Management & Surveying",
+    default: "Dunross Investments Limited | Family Investment Office",
     template: "%s | Dunross Investments Limited",
   },
   description:
-    "Specialist commercial project management and quantity surveying across Scotland. Disciplined stewardship, architectural precision, and enduring value — rooted in Scottish heritage.",
+    "A Scottish family investment office providing disciplined capital stewardship, strategic property investment, and enduring value creation — rooted in heritage and patience.",
   keywords: [
-    "commercial project management Scotland",
-    "quantity surveying Edinburgh",
-    "building surveying Scotland",
+    "family investment office Scotland",
+    "property investment Edinburgh",
+    "commercial property investment Scotland",
     "commercial property management",
     "Dunross Investments",
     "Scottish commercial property",
@@ -40,15 +40,15 @@ export const metadata: Metadata = {
     locale: "en_GB",
     url: siteUrl,
     siteName: "Dunross Investments Limited",
-    title: "Dunross Investments Limited | Commercial Project Management & Surveying",
+    title: "Dunross Investments Limited | Family Investment Office",
     description:
-      "Specialist commercial project management and surveying across Scotland. Disciplined stewardship, architectural precision, and enduring value.",
+      "A Scottish family investment office providing disciplined capital stewardship and strategic property investment across Scotland.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Dunross Investments Limited",
     description:
-      "Specialist commercial project management and surveying across Scotland.",
+      "A Scottish family investment office providing disciplined capital stewardship across Scotland.",
   },
   robots: {
     index: true,
@@ -66,7 +66,7 @@ const jsonLd = {
   "@id": siteUrl,
   name: "Dunross Investments Limited",
   description:
-    "Specialist commercial project management and quantity surveying services across Scotland.",
+    "Disciplined capital stewardship and strategic investment services across Scotland.",
   url: siteUrl,
   email: "info@dunross.co",
   address: {
@@ -83,9 +83,9 @@ const jsonLd = {
     { "@type": "AdministrativeArea", name: "Scotland" },
   ],
   knowsAbout: [
-    "Commercial Project Management",
-    "Quantity Surveying",
-    "Building Surveying",
+    "Capital Stewardship",
+    "Property Investment",
+    "Asset Management",
     "Property Development",
     "Heritage Restoration",
   ],
