@@ -105,6 +105,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en-GB" className={`${playfair.variable} ${inter.variable}`}>
+      <head>
+        <link rel="preconnect" href="https://images.unsplash.com" />
+        <link rel="dns-prefetch" href="https://images.unsplash.com" />
+      </head>
       <body className="bg-[#080a09] text-[#f0f4f1] font-sans antialiased min-h-screen flex flex-col">
         <script
           type="application/ld+json"
