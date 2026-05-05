@@ -64,26 +64,6 @@ export default function Footer() {
                 info@dunross.co
               </a>
             </div>
-
-            <div className="pt-4 space-y-2">
-              <p className="text-[9px] uppercase tracking-[0.3em] font-semibold text-[#5a6460]">
-                Affiliated
-              </p>
-              <div className="flex flex-col gap-2">
-                <a
-                  href="https://aidenmoffat.com"
-                  className="text-[10px] text-[#5a6460] hover:text-[#8a9691] transition-colors duration-300"
-                >
-                  Aiden Moffat Racing
-                </a>
-                <a
-                  href="https://alumise.co.uk"
-                  className="text-[10px] text-[#5a6460] hover:text-[#8a9691] transition-colors duration-300"
-                >
-                  Alumise
-                </a>
-              </div>
-            </div>
           </div>
 
         </div>
@@ -95,14 +75,6 @@ export default function Footer() {
 
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-3 text-[9px] uppercase tracking-[0.25em] font-medium text-[#5a6460]">
             <span>© 2026 Dunross Investments Limited. All rights reserved.</span>
-            <span className="hidden sm:inline text-white/10">·</span>
-            <span>{' '}
-              <a
-                href="https://marketingcompany.co.uk"
-                className="text-[#5a9e7e] hover:text-[#f0f4f1] transition-colors duration-300"
-              >
-              </a>
-            </span>
           </div>
 
           <div className="flex gap-6 text-[9px] uppercase tracking-[0.25em] font-medium text-[#5a6460]">
@@ -118,6 +90,13 @@ export default function Footer() {
           </div>
 
         </div>
+      </div>
+
+      {/* Attribution */}
+      <div className="border-t border-white/[0.04] py-4 text-center">
+        <p className="text-sm text-[#5a6460]">
+          Website developed by <a href="https://marketing-company.co.uk" target="_blank" rel="noopener noreferrer" className="text-[#5a9e7e] hover:text-[#f0f4f1] transition-colors duration-300 underline underline-offset-2">Marketing Company</a>
+        </p>
       </div>
 
     </footer>
