@@ -1,18 +1,27 @@
-# Dunross Investments
+# Dunross Website
 
-## Brand Information
-- **Business Name:** Dunross Investments
-- **Phone:** 
-- **Email:** info@dunross.co
-- **Address:** Titanium 1 King's Inch Place, Renfrew, Scotland, PA4 8WF
-- **Domain:** https://www.dunross.co
-- **Services:** Investments, SEED investment
-- **USP:** Prestige family office
+**Domain:** https://dunross.co.uk  
+**Status:** Ready for deployment  
+**Deployed:** Pending Vercel auth
 
 ## Deployment
-Deployed at: https://www.dunross.co
 
-## Tech Stack
-- Next.js
-- Tailwind CSS
-- Vercel
+```bash
+vercel login
+vercel --prod
+```
+
+Or use Rocky:
+
+```bash
+rocky deploy dunross-website
+```
+
+## SEO
+
+- robots.txt: ✅ Generated
+- sitemap.xml: ✅ Generated
+
+## Notes
+
+Managed by Rocky as Iain automation system.
