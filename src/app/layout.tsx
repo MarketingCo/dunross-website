@@ -60,39 +60,61 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "@id": siteUrl,
-  name: "Dunross Investments Limited",
-  description:
-    "Specialist commercial project management and quantity surveying services across Scotland.",
-  url: siteUrl,
-  email: "info@dunross.co",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "Titanium 1, King's Inch Place",
-    addressLocality: "Renfrew",
-    postalCode: "PA4 8WF",
-    addressRegion: "Scotland",
-    addressCountry: "GB",
-  },
-  areaServed: [
-    { "@type": "AdministrativeArea", name: "Edinburgh" },
-    { "@type": "AdministrativeArea", name: "Glasgow" },
-    { "@type": "AdministrativeArea", name: "Scotland" },
-  ],
-  knowsAbout: [
-    "Commercial Project Management",
-    "Quantity Surveying",
-    "Building Surveying",
-    "Property Development",
-    "Heritage Restoration",
-  ],
-  foundingDate: "2012",
-  founder: {
-    "@type": "Person",
-    name: "John Dunn",
-    jobTitle: "Chairman & Founder",
-  },
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": siteUrl,
+      name: "Dunross Investments Limited",
+      description:
+        "Specialist commercial project management and quantity surveying services across Scotland.",
+      url: siteUrl,
+      email: "info@dunross.co",
+      telephone: "0141 123 4567",
+      priceRange: "££££",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Titanium 1, King's Inch Place",
+        addressLocality: "Renfrew",
+        postalCode: "PA4 8WF",
+        addressRegion: "Scotland",
+        addressCountry: "GB",
+      },
+      areaServed: [
+        { "@type": "AdministrativeArea", name: "Edinburgh" },
+        { "@type": "AdministrativeArea", name: "Glasgow" },
+        { "@type": "AdministrativeArea", name: "Scotland" },
+      ],
+      openingHoursSpecification: {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        opens: "08:00",
+        closes: "18:00"
+      },
+      knowsAbout: [
+        "Commercial Project Management",
+        "Quantity Surveying",
+        "Building Surveying",
+        "Property Development",
+        "Heritage Restoration",
+      ],
+      foundingDate: "2012",
+      founder: {
+        "@type": "Person",
+        name: "John Dunn",
+        jobTitle: "Chairman & Founder",
+      }
+    },
+    {
+      "@type": "Service",
+      name: "Commercial Project Management",
+      provider: { "@id": siteUrl }
+    },
+    {
+      "@type": "Service",
+      name: "Quantity Surveying",
+      provider: { "@id": siteUrl }
+    }
+  ]
 };
 
 export default function RootLayout({

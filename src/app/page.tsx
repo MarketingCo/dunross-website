@@ -37,9 +37,9 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-16 md:gap-24">
 
               <div className="pt-2">
-                <span className="text-[10px] uppercase tracking-[0.45em] font-semibold text-[#5a9e7e]">
+                <h2 className="text-[12px] uppercase tracking-[0.45em] font-semibold text-[#5a9e7e]">
                   The Firm
-                </span>
+                </h2>
                 <span className="rule mt-4" />
               </div>
 
@@ -63,6 +63,29 @@ export default function Home() {
                 </p>
               </div>
 
+            </div>
+          </div>
+        </section>
+
+        {/* ── Selected Engagements ──────────────────────────────── */}
+        <section className="py-24 md:py-32 px-6 md:px-10 bg-[#131a16]">
+          <div className="max-w-5xl mx-auto">
+            <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
+              <h2 className="text-[12px] uppercase tracking-[0.45em] font-semibold text-[#5a9e7e]">
+                Selected Engagements
+              </h2>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="border border-white/5 p-10 space-y-4 hover:border-[#5a9e7e]/50 transition-colors">
+                <h3 className="font-heading text-2xl text-[#f0f4f1] italic font-light">£2M Waterfront Regeneration</h3>
+                <p className="text-[#8a9691] text-sm">Leith, Edinburgh</p>
+                <p className="text-[#f0f4f1] text-sm leading-relaxed mt-4">Full commercial project management and quantity surveying for mixed-use waterfront development.</p>
+              </div>
+              <div className="border border-white/5 p-10 space-y-4 hover:border-[#5a9e7e]/50 transition-colors">
+                <h3 className="font-heading text-2xl text-[#f0f4f1] italic font-light">Heritage Restoration</h3>
+                <p className="text-[#8a9691] text-sm">New Town, Edinburgh</p>
+                <p className="text-[#f0f4f1] text-sm leading-relaxed mt-4">Disciplined stewardship and building surveying for a Grade-A listed commercial property.</p>
+              </div>
             </div>
           </div>
         </section>
@@ -176,12 +199,12 @@ export default function Home() {
                 seeking specialist commercial project management and surveying expertise across Scotland.
               </p>
             </div>
-            <a
-              href="mailto:info@dunross.co"
+            <Link
+              href="/contact"
               className="shrink-0 inline-flex items-center gap-3 border border-[#5a9e7e]/40 hover:border-[#5a9e7e] text-[#5a9e7e] hover:text-[#f0f4f1] hover:bg-[#5a9e7e]/10 px-8 py-4 text-[10px] uppercase tracking-[0.35em] font-semibold transition-all duration-500"
             >
               Get in touch
-            </a>
+            </Link>
           </div>
         </section>
 
