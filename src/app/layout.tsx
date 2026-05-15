@@ -20,7 +20,7 @@ const siteUrl = "https://dunross.co";
 
 export const metadata: Metadata = {
   title: {
-    default: "Dunross Investments Limited | Commercial Project Management & Surveying",
+    default: "Dunross | Commercial Project Management Scotland",
     template: "%s | Dunross Investments Limited",
   },
   description:
