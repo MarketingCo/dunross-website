@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Inter } from "next/font/google";
+import { Bodoni_Moda, Inter } from "next/font/google";
 import "./globals.css";
 
-const playfair = Playfair_Display({
+const bodoni = Bodoni_Moda({
   subsets: ["latin"],
-  variable: "--font-playfair",
+  variable: "--font-bodoni",
   display: "swap",
   weight: ["400", "500", "700"],
 });
@@ -123,7 +123,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en-GB" className={`${playfair.variable} ${inter.variable}`}>
+    <html lang="en-GB" className={`${bodoni.variable} ${inter.variable}`}>
       <body className="bg-[#080a09] text-[#f0f4f1] font-sans antialiased min-h-screen flex flex-col">
         <script
           type="application/ld+json"
