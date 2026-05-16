@@ -19,7 +19,7 @@ export default function Home() {
           <div className="absolute inset-0 hero-overlay" />
 
           <div className="relative z-10 w-full max-w-5xl mx-auto px-6 md:px-10">
-            <p className="reveal text-[10px] uppercase tracking-[0.45em] font-medium text-[#5a9e7e] mb-8">
+            <p className="reveal text-sm font-medium tracking-wide text-[#5a9e7e] mb-8">
               Dunross Investments Limited
             </p>
             <h1 className="reveal-d1 font-heading text-3xl md:text-5xl lg:text-6xl font-light italic leading-[1.2] text-[#f0f4f1] max-w-3xl mb-10">
@@ -103,9 +103,6 @@ export default function Home() {
           <div className="max-w-5xl mx-auto">
 
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
-              <span className="text-[10px] uppercase tracking-[0.45em] font-semibold text-[#5a9e7e]">
-                Our Practice
-              </span>
               <p className="text-[#5a6460] text-xs max-w-xs text-right hidden md:block">
                 Three pillars of sustained, disciplined excellence
               </p>
@@ -170,9 +167,6 @@ export default function Home() {
           <div className="max-w-5xl mx-auto">
 
             <div className="mb-16">
-              <span className="text-[10px] uppercase tracking-[0.45em] font-semibold text-[#5a9e7e]">
-                Areas We Serve
-              </span>
               <span className="rule mt-4" />
               <p className="text-[#8a9691] text-sm leading-relaxed max-w-lg">
                 Serving Edinburgh's most distinguished neighbourhoods with the precision and accountability
@@ -209,7 +203,7 @@ export default function Home() {
             </div>
             <Link
               href="/contact"
-              className="shrink-0 inline-flex items-center gap-3 border border-[#5a9e7e]/40 hover:border-[#5a9e7e] text-[#5a9e7e] hover:text-[#f0f4f1] hover:bg-[#5a9e7e]/10 px-8 py-4 text-[10px] uppercase tracking-[0.35em] font-semibold transition-all duration-500"
+              className="shrink-0 inline-flex items-center gap-3 border border-[#5a9e7e]/40 hover:border-[#5a9e7e] text-[#5a9e7e] hover:text-[#f0f4f1] hover:bg-[#5a9e7e]/10 px-8 py-4 text-sm font-medium tracking-wide transition-all duration-500"
             >
               Get in touch
             </Link>
