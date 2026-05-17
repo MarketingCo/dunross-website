@@ -23,7 +23,7 @@ export default function NotFound() {
         </p>
         <Link
           href="/"
-          className="mt-10 inline-flex items-center gap-3 border border-[#5a9e7e]/40 hover:border-[#5a9e7e] text-[#5a9e7e] hover:text-[#f0f4f1] hover:bg-[#5a9e7e]/10 px-8 py-4 text-[10px] uppercase tracking-[0.35em] font-semibold transition-all duration-500"
+          className="mt-10 inline-flex items-center gap-3 border border-[#5a9e7e]/40 hover:border-[#5a9e7e] text-[#5a9e7e] hover:text-[#f0f4f1] hover:bg-[#5a9e7e]/10 px-8 py-4 text-sm font-medium transition-all duration-500"
         >
           Back to Home
         </Link>

@@ -36,13 +36,13 @@ export default function CookieBanner() {
         <div className="flex items-center gap-3 shrink-0">
           <button
             onClick={handleAccept}
-            className="px-5 py-2.5 bg-[#5a9e7e] text-[#080a09] text-[10px] uppercase tracking-[0.25em] font-semibold transition-all duration-300 hover:bg-[#f0f4f1]"
+            className="px-5 py-2.5 bg-[#5a9e7e] text-[#080a09] text-xs font-medium transition-all duration-300 hover:bg-[#f0f4f1]"
           >
             Accept
           </button>
           <button
             onClick={handleDecline}
-            className="px-5 py-2.5 border border-[#5a9e7e] text-[#5a9e7e] text-[10px] uppercase tracking-[0.25em] font-semibold transition-all duration-300 hover:bg-[#5a9e7e] hover:text-[#080a09]"
+            className="px-5 py-2.5 border border-[#5a9e7e] text-[#5a9e7e] text-xs font-medium transition-all duration-300 hover:bg-[#5a9e7e] hover:text-[#080a09]"
           >
             Decline
           </button>

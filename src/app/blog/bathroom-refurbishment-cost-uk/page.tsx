@@ -120,7 +120,7 @@ export default function BathroomRefurbishmentCost() {
             and justify 5-10% rent premiums. The investment pays for itself within 2-3 years in most cases.
           </p>
 
-          <div className="bg-blue-50 border-l-4 border-blue-600 p-6 mt-10">
+          <div className="bg-blue-50 border-t-4 border-blue-600 p-6 mt-10">
             <h3 className="text-xl font-semibold text-blue-900 mb-2">
               Get Your Edinburgh Bathroom Refurbishment Quote
             </h3>

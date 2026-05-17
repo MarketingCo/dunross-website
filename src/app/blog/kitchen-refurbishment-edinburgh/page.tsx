@@ -120,7 +120,7 @@ export default function KitchenRefurbishmentEdinburgh() {
             <li>Warranty terms (minimum 12 months on workmanship)</li>
           </ul>
 
-          <div className="bg-blue-50 border-l-4 border-blue-600 p-6 mt-10">
+          <div className="bg-blue-50 border-t-4 border-blue-600 p-6 mt-10">
             <h3 className="text-xl font-semibold text-blue-900 mb-2">
               Start Your Edinburgh Kitchen Project
             </h3>

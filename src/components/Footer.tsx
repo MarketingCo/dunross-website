@@ -35,7 +35,7 @@ export default function Footer() {
 
           {/* Navigation column */}
           <div className="space-y-6">
-            <h4 className="text-[9px] uppercase tracking-[0.4em] font-semibold text-[#5a9e7e]">
+            <h4 className="text-sm font-semibold text-[#5a9e7e]">
               Navigate
             </h4>
             <nav className="flex flex-col gap-3">
@@ -43,7 +43,7 @@ export default function Footer() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className="text-[10px] uppercase tracking-[0.2em] font-medium text-[#8a9691] hover:text-[#f0f4f1] transition-colors duration-300"
+                  className="text-xs font-medium text-[#8a9691] hover:text-[#f0f4f1] transition-colors duration-300"
                 >
                   {link.name}
                 </Link>
@@ -53,7 +53,7 @@ export default function Footer() {
 
           {/* Contact column */}
           <div className="space-y-6">
-            <h4 className="text-[9px] uppercase tracking-[0.4em] font-semibold text-[#5a9e7e]">
+            <h4 className="text-sm font-semibold text-[#5a9e7e]">
               Get in Touch
             </h4>
             <div className="space-y-3">
@@ -73,11 +73,11 @@ export default function Footer() {
       <div className="border-t border-white/[0.04]">
         <div className="max-w-5xl mx-auto px-6 md:px-10 py-6 flex flex-col sm:flex-row justify-between items-center gap-4">
 
-          <div className="flex flex-col sm:flex-row items-center sm:items-start gap-3 text-[9px] uppercase tracking-[0.25em] font-medium text-[#5a6460]">
+          <div className="flex flex-col sm:flex-row items-center sm:items-start gap-3 text-xs font-medium text-[#5a6460]">
             <span>© 2026 Dunross Investments Limited. All rights reserved.</span>
           </div>
 
-          <div className="flex gap-6 text-[9px] uppercase tracking-[0.25em] font-medium text-[#5a6460]">
+          <div className="flex gap-6 text-xs font-medium text-[#5a6460]">
             <Link href="/privacy" className="hover:text-[#f0f4f1] transition-colors duration-300">
               Privacy
             </Link>

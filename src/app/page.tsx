@@ -37,7 +37,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-16 md:gap-24">
 
               <div className="pt-2">
-                <h2 className="text-[12px] uppercase tracking-[0.45em] font-semibold text-[#5a9e7e]">
+                <h2 className="text-sm font-semibold text-[#5a9e7e]">
                   The Firm
                 </h2>
                 <span className="rule mt-4" />
@@ -79,7 +79,7 @@ export default function Home() {
         <section className="py-24 md:py-32 px-6 md:px-10 bg-[#131a16]">
           <div className="max-w-5xl mx-auto">
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
-              <h2 className="text-[12px] uppercase tracking-[0.45em] font-semibold text-[#5a9e7e]">
+              <h2 className="text-sm font-semibold text-[#5a9e7e]">
                 Selected Engagements
               </h2>
             </div>
@@ -120,7 +120,7 @@ export default function Home() {
                 </p>
                 <Link
                   href="/purpose"
-                  className="inline-block text-[9px] uppercase tracking-[0.3em] font-semibold text-[#5a9e7e] group-hover:text-[#f0f4f1] transition-colors duration-300"
+                  className="inline-block text-xs font-medium text-[#5a9e7e] group-hover:text-[#f0f4f1] transition-colors duration-300"
                 >
                   Explore
                 </Link>
@@ -136,7 +136,7 @@ export default function Home() {
                 </p>
                 <Link
                   href="/heritage"
-                  className="inline-block text-[9px] uppercase tracking-[0.3em] font-semibold text-[#5a9e7e] group-hover:text-[#f0f4f1] transition-colors duration-300"
+                  className="inline-block text-xs font-medium text-[#5a9e7e] group-hover:text-[#f0f4f1] transition-colors duration-300"
                 >
                   Explore
                 </Link>
@@ -152,7 +152,7 @@ export default function Home() {
                 </p>
                 <Link
                   href="/operations"
-                  className="inline-block text-[9px] uppercase tracking-[0.3em] font-semibold text-[#5a9e7e] group-hover:text-[#f0f4f1] transition-colors duration-300"
+                  className="inline-block text-xs font-medium text-[#5a9e7e] group-hover:text-[#f0f4f1] transition-colors duration-300"
                 >
                   Explore
                 </Link>
@@ -179,7 +179,7 @@ export default function Home() {
                 <Link
                   key={n.slug}
                   href={`/${n.slug}`}
-                  className="text-[9px] uppercase tracking-[0.25em] font-semibold text-[#5a6460] hover:text-[#f0f4f1] transition-colors duration-300 border border-white/[0.05] hover:border-white/10 py-5 px-3 text-center leading-relaxed"
+                  className="text-xs font-medium text-[#5a6460] hover:text-[#f0f4f1] transition-colors duration-300 border border-white/[0.05] hover:border-white/10 py-5 px-3 text-center leading-relaxed"
                 >
                   {n.name}
                 </Link>

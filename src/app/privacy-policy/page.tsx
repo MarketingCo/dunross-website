@@ -14,7 +14,7 @@ export default function PrivacyPolicyPage() {
 
         <div className="space-y-10 text-[#8a9691] font-light text-sm leading-relaxed">
           <section>
-            <h2 className="text-[10px] uppercase tracking-[0.4em] font-semibold text-[#5a9e7e] mb-4">
+            <h2 className="text-sm font-semibold text-[#5a9e7e] mb-4">
               1. Who We Are
             </h2>
             <p>
@@ -23,7 +23,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-[10px] uppercase tracking-[0.4em] font-semibold text-[#5a9e7e] mb-4">
+            <h2 className="text-sm font-semibold text-[#5a9e7e] mb-4">
               2. What Data We Collect
             </h2>
             <p>
@@ -38,7 +38,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-[10px] uppercase tracking-[0.4em] font-semibold text-[#5a9e7e] mb-4">
+            <h2 className="text-sm font-semibold text-[#5a9e7e] mb-4">
               3. How We Use Cookies
             </h2>
             <p>
@@ -55,7 +55,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-[10px] uppercase tracking-[0.4em] font-semibold text-[#5a9e7e] mb-4">
+            <h2 className="text-sm font-semibold text-[#5a9e7e] mb-4">
               4. How We Use Your Information
             </h2>
             <p>
@@ -71,7 +71,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-[10px] uppercase tracking-[0.4em] font-semibold text-[#5a9e7e] mb-4">
+            <h2 className="text-sm font-semibold text-[#5a9e7e] mb-4">
               5. Data Retention
             </h2>
             <p>
@@ -80,7 +80,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-[10px] uppercase tracking-[0.4em] font-semibold text-[#5a9e7e] mb-4">
+            <h2 className="text-sm font-semibold text-[#5a9e7e] mb-4">
               6. Your Rights
             </h2>
             <p>
@@ -100,7 +100,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-[10px] uppercase tracking-[0.4em] font-semibold text-[#5a9e7e] mb-4">
+            <h2 className="text-sm font-semibold text-[#5a9e7e] mb-4">
               7. Contact Information
             </h2>
             <p>
@@ -113,7 +113,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-[10px] uppercase tracking-[0.4em] font-semibold text-[#5a9e7e] mb-4">
+            <h2 className="text-sm font-semibold text-[#5a9e7e] mb-4">
               8. Updates to This Policy
             </h2>
             <p>
